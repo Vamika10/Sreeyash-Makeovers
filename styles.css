@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff0f5;
+  color: #333;
+}
+
+header {
+  background-color: #d63384;
+  color: rgb(240, 245, 245);
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(6, 1, 1);
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('images/Makeup.jpeg') no-repeat center center/cover;
+  color: rgb(80, 207, 205);
+}
+
+.hero h2 {
+  color: black;   /* Black */
+  font-size: 32px;
+  font-family: 'Courier New', monospace;
+  font-weight: 700;
+}
+
+
+.btn {
+  background-color: #d63384;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.content {
+  padding: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form select, form button {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+/* Background for booking page */
+body.booking-page {
+  background: url('images/Background.jpg') no-repeat center center/cover;
+  min-height: 100vh; /* full viewport height */
+  background-attachment: fixed; /* optional: makes background fixed on scroll */
+}
+
+body.services-page {
+  background: url('images/services.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  color: white; /* adjust text color if needed */
+}
+
+body.contact-page {
+  background: url('images/Contact.jpeg') no-repeat center center/cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+  color: white;
+}
+
+h1 {
+  color: #68d5db;          /* Blueish color */
+  font-size: 36px;         /* Big font */
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+
+p {
+  color: #333333;          /* Dark gray */
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+}
+
+.btn {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: rgb(8, 1, 1);
+  font-weight: bold;
+}
+
+header h1 {
+  color: #0a0202; /* Change this to your brand color */
+  font-size: 40px; /* Adjust size */
+  font-family: 'Georgia', serif; /* Or use a Google Font */
+  text-transform: uppercase; /* Optional: make all caps */
+  letter-spacing: 1px; /* Optional: spacing between letters */
+}
+
+/* Font colors for services page */
+body.services-page {
+  color: #f8f8f8; /* Light text for readability on dark background */
+}
+
+body.services-page h1,
+body.services-page h2,
+body.services-page h3 {
+  color: black; /* Black headings */
+}
+
+body.services-page p {
+  color: #0a0202; /* Lighter gray for paragraph text */
+}
+
+body.services-page ul li {
+  color: #040000; /* List items */
+}
+
+/* Background color for homepage only */
+body.home-page {
+  background-color: #837177; /* light brown — change to any color you want */
+  color: #222; /* Optional: change text color if needed */
+}

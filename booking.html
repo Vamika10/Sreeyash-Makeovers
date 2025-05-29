@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Appointment - SreeyAsh Makeovers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body class="booking-page">
+  <!-- Your booking page content -->
+</body>
+
+  <header>
+    <h1>SreeyAsh Makeovers</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="booking.html">Book Now</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Book Your Appointment</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label>Name:</label>
+      <input type="text" name="name" required>
+      
+      <label>Email:</label>
+      <input type="email" name="email" required>
+      
+      <label>Phone:</label>
+      <input type="text" name="phone" required>
+      
+      <label>Select Service:</label>
+      <select name="service" required>
+        <option>Bridal Makeover</option>
+        <option>Party Look</option>
+        <option>Guest Look</option>
+        <option>Air Finish Makeup</option>
+        <option>Beauty Services</option>
+      </select>
+
+      <label>Preferred Date & Time:</label>
+      <input type="datetime-local" name="datetime" required>
+
+      <button type="submit">Book Appointment</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SreeyAsh Makeovers</p>
+  </footer>
+</body>
+</html>
