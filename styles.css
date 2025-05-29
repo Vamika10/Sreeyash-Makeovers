@@ -35,7 +35,7 @@ nav a {
 
 
 .btn {
-  background-color: #d63384;
+  background-color: #3392d6;
   color: black;
   padding: 10px 20px;
   text-decoration: none;
@@ -141,4 +141,28 @@ body.services-page ul li {
 body.home-page {
   background-color: #837177; /* light brown — change to any color you want */
   color: #222; /* Optional: change text color if needed */
+}
+
+/* Add this to styles.css */
+body.services-page {
+  background-image: url('images/creative.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body.home-page {
+  background-color: #6ebdaf; /* Light green tone */
+  /* Optional extra styling */
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+body.home-page {
+  background-image: url('images/eyeshadow.avif'); /* your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* optional: creates parallax effect */
+  color: white; /* optional: improve readability */
 }
